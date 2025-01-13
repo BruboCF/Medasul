@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDASUL - Medalhas e Troféus</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!-- SwiperJS, pluguin para fazer o carrossel com JS -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu">
+                    <span class="cabecalho__menu-hamburguer container__imagem"></span>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__titulo">Categorias</li>
+                    <li class="lista-menu__item">
+                        <a href="index.html" class="lista-menu__link">Página inicial</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="linha.html" class="lista-menu__link">Medalhas de Linha</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="pers.html" class="lista-menu__link">Medalhas Personalizadas</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="trofeu.html" class="lista-menu__link">Troféus</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="empresa.html" class="lista-menu__link">Empresa</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="contato.html" class="lista-menu__link">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <img src="img/medasul-logo.svg" alt="Logo da Medasul" class="container__imagem">
+    </header>
+    
+    <main>
+        <section class="banner">
+            <h2 class="banner__titulo">A MEDALHA DOS CAMPEÕES!</h2>
+            <p class="banner__texto">Medasul - Medalhas e Troféus</p>
+        </section>
+
+        <section class="cards">
+            <h2 class="cards__titulo">Medalhas de Linha</h2>
+            <div class="cards__container">
+                <div class="card">
+                    <div class="card__descrição">
+                        <div class="descrição">
+                            <p class="descrição__texto">Tipo de medalha com o estilo e tamanho já predefinido.</p>
+                            <h3 class="descrição__titulo-medalha">Estampadas</h3>
+                            <p class="descrição__texto">Conta com os modelos: Final 1, Final 5 e Final 7.</p>
+                            <h3 class="descrição__titulo-medalha">Fundidas</h3>
+                            <p class="descrição__texto">Tem seus diversos tamanhos e estilos, um mais diferente que o outro!</p>
+                        </div>
+                        <img src="img/2015.png" class="descrição__imagem" alt="Medalha 2015 Nº 1">
+                    </div>
+                    <div class="card__botões">
+                        <a href="linha.html" class="botões__ancora">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <h2 class="cards__titulo">Medalhas Personalizadas</h2>
+                <div class="card">
+                    <div class="card__descrição">
+                        <div class="descrição">
+                            <p class="descrição__texto">Completamente customizadas, essas medalhas são desenhadas, fundidas, banhadas e pintadas do jeito que você quiser!</p>
+                        </div>
+                        <img src="img/personalizada.png" class="descrição__imagem" alt="Medalha personalizada">
+                    </div>
+                    <div class="card__botões">
+                        <a href="pers.html" class="botões__ancora">Saiba mais</a>
+                    </div>
+                </div>
+                <h2 class="cards__titulo">Troféus</h2>
+                <div class="card">
+                    <div class="card__descrição">
+                        <div class="descrição">
+                            <h3 class="descrição__titulo-medalha">Fundido</h3>
+                            <p class="descrição__texto">Montado sob uma base MDF, pode conter adesivos personalizados.</p>
+                            <h3 class="descrição__titulo-medalha">MDF</h3>
+                            <p class="descrição__texto">Troféu completamente feito em madeira MDF, sendo o adeviso quem dá o destaque à peça.</p>
+                        </div>
+                        <img src="img/troféu-provisório.png" class="descrição__imagem" alt="Troféu em MDF e troféu fundido">
+                    </div>
+                    <div class="card__botões">
+                        <a href="trofeu.html" class="botões__ancora">Saiba mais</a>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <!--VERIFICAR O FOOTER VER SE TA TUDO ESCRITO CERTO NO FINAL-->
+
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Grupo MEDASUL</h2>
+        <p class="rodape__texto">© 2023 por MEDASUL MEDALHAS.
+            MEDASUL MEDALHAS Ltda. - CNPJ: 02.472.562/0001-63 - Rua: n sei CEP 95190-000
+            medasul@medasul.com -  Telefone: (54) 3291-2122</p>
+    </footer>
+</body>
+</html>

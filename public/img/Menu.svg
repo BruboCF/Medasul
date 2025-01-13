@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 24" width="36" height="24">
+	<title>Menu-svg</title>
+	<defs>
+		<image  width="36" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAYCAMAAAClZq98AAAAAXNSR0IB2cksfwAAAORQTFRFL5hSL5dRL5ZRL5VRL5RQLpNQLpJPLpFPLpBOLo5OLY1NLYxNLYtMLYpMLYlLLYdLLIZKLIVKLIRJLIJJLIFIK4BHK35HK31GK3xGK3tFKnlFKnhEKndEKnVDKnRCKXNCKXJBKXBBKW9AKW5AL5VQLpBPLo9OLYlMLYhLLIdKLINJLIJIK4BIK39HK3tGKnpFKnlEKnZDKXJCKXFBKW0/KG0/LpRQK3pFKW1AKGw/AAAALo1NKnRDKGs/KGo+KGk+KGg9KGs+KGc9LIdLJ2Y8Lo5NJ2Q8J2M7J2I7J2Y9J2U8J2E6f2VqGQAAAEx0Uk5T/////////////////////////////////////////////////////////////////////////////wD//////////////////////yLz3eAAAADPSURBVHic1dBJF4FQGMbx1zyTpJDMKpHMZJbM3//7uNclLXJOCwue9XP+ix+Ax+vzB4KhcCQaiyeSKSpNZ5gsy+XyBb4olMqVaq0O6NRAn6aITglJbqVppd1RWa6r9Yp9oTwYVusjN6ExDk2cQlMrNNNh7mL/e8JG4uJt1FGfRktitFpvtmAzopARYxmVkFFtpu/WWwM+hPq2kAEkFJfk/ceQ+ZNO3zsdsJHsaKRjI/N4OsPDKPU2KvCWEYI0Lld8eoUUEtJIaGgP3cBF6HYHJSCaQQciQJ4AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Camada 1" href="#img1" x="0" y="0"/>
+</svg>

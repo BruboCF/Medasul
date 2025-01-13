@@ -1,0 +1,29 @@
+@import url("styles/index/header.css");
+@import url("styles/index/banner.css");
+@import url("styles/index/cards.css");
+@import url("styles/index/rodape.css");
+
+@import url("styles/linha/descricao-linha.css");
+@import url("styles/pers/descricao-pers.css");
+@import url("styles/trofeu/descricao-trofeu.css");
+@import url("styles/empresa/empresa.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --preto: #000000;
+    --branco: #ffffff;
+    --cinza: #b9b9b9;
+    --verde: #31a457;
+    --cor-hover: #272727;
+    --verde-degrade: linear-gradient(97.54deg, #31a457 35.49%, #228a44 165.37%);
+
+    --fonte-principal: "Poppins";
+    --fonte-secundario: "Josefin Sans";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
