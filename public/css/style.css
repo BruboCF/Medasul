@@ -1,12 +1,12 @@
-@import url("styles/index/header.css");
-@import url("styles/index/banner.css");
-@import url("styles/index/cards.css");
-@import url("styles/index/rodape.css");
+@import url("index/header.css");
+@import url("index/banner.css");
+@import url("index/cards.css");
+@import url("index/rodape.css");
 
-@import url("styles/linha/descricao-linha.css");
-@import url("styles/pers/descricao-pers.css");
-@import url("styles/trofeu/descricao-trofeu.css");
-@import url("styles/empresa/empresa.css");
+@import url("linha/descricao-linha.css");
+@import url("pers/descricao-pers.css");
+@import url("trofeu/descricao-trofeu.css");
+@import url("empresa/empresa.css");
 
 :root {
     --cor-de-fundo: #EBECEE;
