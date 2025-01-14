@@ -26,13 +26,13 @@
 
 .container__imagem {
     padding: 1em;
-
 }
 
 .lista-menu {
     display: none; /*sumir a lista do lado do menu hamburguer */
     position: absolute; /*faz o elemento lista-menu se comportar igual ao elemente pai, no caso o cabeçalho */
     top: 100%; /*movimentar 100% para baixo do cabeçalho*/
+    right: 0%;
     width: 60vw;
     border: 2px solid var(--verde);
 }
@@ -79,6 +79,14 @@
         font-size: 30px;
     }
 
+    .cabecalho__menu-hamburguer {
+        padding-left: 3.5em;
+    }   
+
+    .lista-menu {
+        width: 25%;
+    }
+
     .container__titulo {
         font-weight: 400;
         display: block;
@@ -101,7 +109,7 @@
         text-decoration: none;
         color: var(--preto);
     }
-
+/*
     .container__imagem-transparente {
         display: none;
     }
@@ -117,5 +125,5 @@
 
     .opções__botão {
         display: none;
-    }
+    }*/
 }

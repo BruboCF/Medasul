@@ -17,6 +17,7 @@
 
 <body>
     <header class="cabecalho cabecalho__medalhas">
+        <img src="img/medasul-logo.svg" alt="Logo da Medasul" class="container__imagem">
         <div class="container">
             <input type="checkbox" id="menu" class="container__botao">
             <label for="menu">
@@ -44,34 +45,38 @@
                 </li>
             </ul>
         </div>
-        <img src="img/medasul-logo.svg" alt="Logo da Medasul" class="container__imagem">
     </header>
 
     <main>
-        <section class="descrição">
-            <h1 class="descrição__titulo__linha">Medalhas de Linha</h1>
-            <h2 class="descrição__sub-titulo">Estampadas</h2>
-            <p class="descrição__texto__linha">Medalhas de Linha Estampadas são peças finas que variam entre os tamanhos de 29mm, 35mm, 42mm, 52mm e 60mm. São divididas em três modelos diferentes:
-                 <ul class="descrição__texto__lista">
-                    <li>Final 1 (291 por exemplo)</li>
-                    <li>Final 5 (355 por exemplo)</li>
-                    <li>Final 7 (527 por exemplo)</li>
-                    <li>Sem estampa (42 por exemplo)</li>
-                 </ul>
-                 <br>
-                 <p class="descrição__texto__linha">
-                    <strong class="descrição__texto__destaque">Mas o que isso significa?</strong><br><br>
-                        Isso é como se da o nome de cada medalha! O nome começa com o tamanho da peça em milímetros, por exemplo o modelo 355, que indica que a peça tem 35mm de diâmetro e está estampada com o desenho 5!
-                 </p>
-                 <p>--carrossel--</p>
-                 <p>--ir direto pros contatos--</p>
-            </p>
+        <section class="cards">
+            <h2 class="descrição__titulo__linha">Medalhas de Linha</h2>
+            <div class="cards__container">
+                <div class="card">
+                    <div class="card__descrição">
+                        <div class="descrição">
+                            <h2 class="descrição__sub-titulo">Estampadas</h2>
+                            <p class="descrição__texto__linha">Medalhas de Linha Estampadas são peças finas que variam entre os tamanhos de 29mm, 35mm, 42mm, 52mm e 60mm. <br><br>São divididas em três modelos diferentes:
+                                <ul class="descrição__texto__lista">
+                                   <li>Final 1</li>
+                                   <li>Final 5</li>
+                                   <li>Final 7</li>
+                                </ul>
+                            <p class="descrição__texto__linha"><br>Opções de Banho disponíveis:</p>
+                                <ul class="descrição__texto__lista">
+                                    <li>Dourado</li>
+                                    <li>Prata</li>
+                                    <li>Bronze</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-
+        <!--
         <section class="carrossel">
-                <div class="swiper">
+            <div class="swiper">
                     <div class="swiper-pagination"></div>
-                    <!--
+                    
                     <div class="swiper-wrapper">
                         <div class="swiper-slide"><img src="img/291.jpg" alt="Medalha 291" height="141" width="233"></div>
                         <div class="swiper-slide"><img src="img/351.jpg" alt="Medalha 351" height="141" width="233"></div>
@@ -117,19 +122,93 @@
                         <div class="swiper-slide"><img src="img/52.jpg" alt="Medalha 52" height="141" width="233"></div>
                     </div>
                     <div class="swiper-pagination"></div>
-                    -->
+                </section>    
+            </div>   
+            -->
+
+            <div class="cards__container">
+                <div class="card">
+                    <div class="card__descrição">
+                        <div class="descrição">
+                            <h2 class="descrição__sub-titulo">Fundidas</h2>
+                            <p class="descrição__texto__linha">Medalhas de Linha Fundidas são completamente diferentes umas das outras. Com tamanhos distindo e formatos variados, essas peças podem ser perfeitas para seu evento, podendo ter sua marca adesivada nelas do jeito que você quiser! <br><br>São divididas em 4 modelos diferentes:</p>
+                            <ul class="descrição__texto__lista">
+                                <li>Sem estampa</li>
+                                <li>Modelos 20</li>
+                                <li>Modelos M</li>
+                                <li>Modelos 100</li>
+                             </ul>
+                             <p class="descrição__texto__linha"><br>Opções de Banho disponíveis:</p>
+                                <ul class="descrição__texto__lista">
+                                    <li>Dourado</li>
+                                    <li>Prata</li>
+                                    <li>Bronze</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--
+        <section class="carrossel">
+            <div class="swiper">
+                    <div class="swiper-pagination"></div>
+                    
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/291.jpg" alt="Medalha 291" height="141" width="233"></div>
+                        <div class="swiper-slide"><img src="img/351.jpg" alt="Medalha 351" height="141" width="233"></div>
+                        <div class="swiper-slide"><img src="img/421.jpg" alt="Medalha 421" height="141" width="233"></div>
+                        <div class="swiper-slide"><img src="img/521.jpg" alt="Medalha 521" height="141" width="233"></div>
+                        <div class="swiper-slide"><img src="img/601.jpg" alt="Medalha 601" height="141" width="233"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>   
             </section>
-
-    <!--FAZER UMA PARTE EMBAIXO QUE VAI DIRETO PARA OS CONTATOS CASO A PESSOA TENHA GOSTADO DOS PRODUTOS-->
-
-        <section class="descrição">
-            <h2 class="descrição__sub-titulo">Fundidas</h2>
-            <p class="descrição__texto__linha">Medalhas de Linha Fundidas são completamente diferentes umas das outras. Com tamanhos distindo e formatos variados, essas peças podem ser perfeitas para seu evento, podendo ter sua marca adesivada nelas do jeito que você quiser!</p>
-                <p>--carrossel--</p>
-                <p>--ir direto pros contatos--</p>
+            <section class="carrossel">
+                <div class="swiper">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/295.jpg" alt="Medalha 295" height="141" width="233"></div>
+                        <div class="swiper-slide"><img src="img/355.jpg" alt="Medalha 355" height="141" width="233"></div>
+                        <div class="swiper-slide"><img src="img/425.jpg" alt="Medalha 425" height="141" width="233"></div>
+                        <div class="swiper-slide"><img src="img/525.jpg" alt="Medalha 525" height="141" width="233"></div>
+                        <div class="swiper-slide"><img src="img/605.jpg" alt="Medalha 605" height="141" width="233"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>   
+            </section>
+            <section class="carrossel">
+                <div class="swiper">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/297.jpg" alt="Medalha 297" height="141" width="233"></div>
+                        <div class="swiper-slide"><img src="img/357.jpg" alt="Medalha 357" height="141" width="233"></div>
+                        <div class="swiper-slide"><img src="img/427.jpg" alt="Medalha 427" height="141" width="233"></div>
+                        <div class="swiper-slide"><img src="img/527.jpg" alt="Medalha 527" height="141" width="233"></div>
+                        <div class="swiper-slide"><img src="img/607.jpg" alt="Medalha 607" height="141" width="233"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>   
+            </section>
+            <section class="carrossel">
+                <div class="swiper">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/35.jpg" alt="Medalha 35" height="141" width="233"></div>
+                        <div class="swiper-slide"><img src="img/42.jpg" alt="Medalha 42" height="141" width="233"></div>
+                        <div class="swiper-slide"><img src="img/52.jpg" alt="Medalha 52" height="141" width="233"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </section>    
+            </div>   
+            -->
+                 <p>--carrossel--</p>
+                 <p>--ir direto pros contatos--</p>
             </p>
         </section>
+
+    <!--FAZER UMA PARTE EMBAIXO QUE VAI DIRETO PARA OS CONTATOS CASO A PESSOA TENHA GOSTADO DOS PRODUTOS-->
 
     </main>
 

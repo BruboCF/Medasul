@@ -9,6 +9,12 @@
     border: 1.5px solid var(--verde);
 }
 
+.cards__subtitulo {
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: none;
+}
+
 .card__descrição {
     display: flex;
     justify-content: space-between;
@@ -110,11 +116,11 @@
         margin: 2em auto;
     }
 }
-
+/*
 @media screen and (min-width: 1728px) {
     .cards__container {
         display: flex;
-        margin: 0 20vw 3em 20vw; /*por conta de 20vw de cada lado, os itens ocuparam 60% do espaço*/
+        margin: 0 20vw 3em 20vw; /*por conta de 20vw de cada lado, os itens ocuparam 60% do espaço
         align-items: center;
     }
 
@@ -142,4 +148,4 @@
         width: 60%;
         margin-left: 3em;
     }
-}
+}*/
