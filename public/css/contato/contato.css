@@ -1,0 +1,23 @@
+.card__contato {
+    width: 60%;
+}
+
+.card__map {
+    max-width: 50%;
+}
+
+.descrição__contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-content: center;
+}
+
+.descrição__titulo__contato {
+    font-size: 24px;
+}
+
+.descrição__texto__contato {
+    font-size: 16px;
+}
+

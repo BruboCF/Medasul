@@ -7,6 +7,7 @@
 @import url("pers/descricao-pers.css");
 @import url("trofeu/descricao-trofeu.css");
 @import url("empresa/empresa.css");
+@import url("contato/contato.css");
 
 :root {
     --cor-de-fundo: #EBECEE;
@@ -14,7 +15,7 @@
     --branco: #ffffff;
     --cinza: #b9b9b9;
     --verde: #31a457;
-    --cor-hover: #272727;
+    --cor-hover: #288547;
     --verde-degrade: linear-gradient(97.54deg, #31a457 35.49%, #228a44 165.37%);
 
     --fonte-principal: "Poppins";

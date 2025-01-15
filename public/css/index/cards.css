@@ -26,6 +26,22 @@
     justify-content: space-between;
 }
 
+.botões__ancora {
+    background-color: var(--verde);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.botões__ancora:hover {
+    background-color: var(--cor-hover);
+}
+
 .botões {
     display: flex;
 }
@@ -70,18 +86,6 @@
     width: auto;
     height: auto;
     text-align: center;
-}
-
-.botões__ancora {
-    background-color: var(--verde);
-    padding: 1em 2.2em;
-    color: var(--branco);
-    font-weight: 700;
-    text-decoration: none;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    border-radius: 8px;
 }
 
 .descrição__estrelinhas {

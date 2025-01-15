@@ -9,6 +9,11 @@
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+    border-radius: 15px;
+}
+
+.cabecalho__menu-hamburguer:hover {
+    background-color: var(--cor-de-fundo);
 }
 
 .cabecalho {
@@ -25,7 +30,12 @@
 }
 
 .container__imagem {
-    padding: 1em;
+    padding: 1em 1em 0.8em 1em;
+    border-radius: 15px;
+}
+
+.container__imagem:hover {
+    background-color: var(--cor-de-fundo);
 }
 
 .lista-menu {

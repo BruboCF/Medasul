@@ -60,3 +60,8 @@
 .descrição__texto__destaque {
     border-bottom: 2px solid var(--preto);
 }
+
+.titulo__contato {
+    display: flex;
+    justify-content: center;
+}
