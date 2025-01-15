@@ -1,0 +1,106 @@
+.carrossel{
+  position: relative;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  padding: 0 4em 2em 4em;
+  width: 60%;
+  background-color: var(--cor-de-fundo);
+}
+
+.swiper{
+  width: 100%;
+  height: auto;
+}
+
+.swiper-wrapper{
+  display: flex;
+  width: 100%;
+}
+
+.card-swiper{
+  width: auto;
+  position: relative;
+  background: var(--branco);
+  border-radius: 15px;
+  margin: 1.5em 0;
+  box-shadow: 0 5px 10px var(--verde);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-swiper::before{
+  content: "";
+  position: absolute;
+  background: var(--branco);
+  border-radius: 20px 20px 0 0;
+}
+
+.card-swiper .card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+  z-index: 100;
+}
+
+.image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20%;
+  border: 3px solid #fff;
+}
+
+.card-swiper .name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  color: var(--preto);
+} 
+
+.name .model-name{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.name{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.swiper-pagination{
+  position: absolute;
+  top: 450px;
+}
+
+.swiper-pagination-bullet{
+  height: 7px;
+  width: 26px;
+  border-radius: 25px;
+  background: var(--verde);
+}
+
+.swiper-button-next{
+  right: -40px;
+}
+
+.swiper-button-prev{
+  left: -40px;
+}
+
+.swiper-button-next, .swiper-button-prev{
+  opacity: 0.7;
+  color: var(--verde);
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover{
+  opacity: 1;
+  color: var(--verde);
+}

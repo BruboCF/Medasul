@@ -8,6 +8,7 @@
 @import url("trofeu/descricao-trofeu.css");
 @import url("empresa/empresa.css");
 @import url("contato/contato.css");
+@import url("carrossel/swiper.css");
 
 :root {
     --cor-de-fundo: #EBECEE;
