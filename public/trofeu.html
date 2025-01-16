@@ -10,9 +10,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
-    <!-- SwiperJS, pluguin para fazer o carrossel com JS -->
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
 </head>
 
 <body>
@@ -73,59 +75,67 @@
             </div>
         </section>
 
-        <!--
-        <section class="carrossel">
-            <div class="swiper">
-                    <div class="swiper-pagination"></div>
-                    
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="img/291.jpg" alt="Medalha 291" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/351.jpg" alt="Medalha 351" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/421.jpg" alt="Medalha 421" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/521.jpg" alt="Medalha 521" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/601.jpg" alt="Medalha 601" height="141" width="233"></div>
+        <section id="carrossel1" class="carrossel">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide card-swiper">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="img/421.jpg">
+                            </div>
+                            <div class="name">
+                                <span class="model-name">291</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-pagination"></div>
-                </div>   
-            </section>
-            <section class="carrossel">
-                <div class="swiper">
-                    <div class="swiper-pagination"></div>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="img/295.jpg" alt="Medalha 295" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/355.jpg" alt="Medalha 355" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/425.jpg" alt="Medalha 425" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/525.jpg" alt="Medalha 525" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/605.jpg" alt="Medalha 605" height="141" width="233"></div>
+                    <div class="swiper-slide card-swiper">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="img/421.jpg">
+                            </div>
+                            <div class="name">
+                                <span class="model-name">351</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-pagination"></div>
-                </div>   
-            </section>
-            <section class="carrossel">
-                <div class="swiper">
-                    <div class="swiper-pagination"></div>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="img/297.jpg" alt="Medalha 297" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/357.jpg" alt="Medalha 357" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/427.jpg" alt="Medalha 427" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/527.jpg" alt="Medalha 527" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/607.jpg" alt="Medalha 607" height="141" width="233"></div>
+                    <div class="swiper-slide card-swiper">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="img/421.jpg">
+                            </div>
+                            <div class="name">
+                                <span class="model-name">421</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-pagination"></div>
-                </div>   
-            </section>
-            <section class="carrossel">
-                <div class="swiper">
-                    <div class="swiper-pagination"></div>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="img/35.jpg" alt="Medalha 35" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/42.jpg" alt="Medalha 42" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/52.jpg" alt="Medalha 52" height="141" width="233"></div>
+                    <div class="swiper-slide card-swiper">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="img/421.jpg">
+                            </div>
+                            <div class="name">
+                                <span class="model-name">521</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-pagination"></div>
-                </section>    
-            </div>   
-            -->
+                    <div class="swiper-slide card-swiper">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="img/421.jpg">
+                            </div>
+                            <div class="name">
+                                <span class="model-name">601</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+
+        </section>
 
         <div class="cards__container">
             <div class="card">
@@ -140,59 +150,67 @@
             </div>
         </div>
 
-        <!--
-        <section class="carrossel">
-            <div class="swiper">
-                    <div class="swiper-pagination"></div>
-                    
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="img/291.jpg" alt="Medalha 291" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/351.jpg" alt="Medalha 351" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/421.jpg" alt="Medalha 421" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/521.jpg" alt="Medalha 521" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/601.jpg" alt="Medalha 601" height="141" width="233"></div>
+        <section id="carrossel2" class="carrossel">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide card-swiper">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="img/421.jpg">
+                            </div>
+                            <div class="name">
+                                <span class="model-name">291</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-pagination"></div>
-                </div>   
-            </section>
-            <section class="carrossel">
-                <div class="swiper">
-                    <div class="swiper-pagination"></div>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="img/295.jpg" alt="Medalha 295" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/355.jpg" alt="Medalha 355" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/425.jpg" alt="Medalha 425" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/525.jpg" alt="Medalha 525" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/605.jpg" alt="Medalha 605" height="141" width="233"></div>
+                    <div class="swiper-slide card-swiper">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="img/421.jpg">
+                            </div>
+                            <div class="name">
+                                <span class="model-name">351</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-pagination"></div>
-                </div>   
-            </section>
-            <section class="carrossel">
-                <div class="swiper">
-                    <div class="swiper-pagination"></div>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="img/297.jpg" alt="Medalha 297" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/357.jpg" alt="Medalha 357" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/427.jpg" alt="Medalha 427" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/527.jpg" alt="Medalha 527" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/607.jpg" alt="Medalha 607" height="141" width="233"></div>
+                    <div class="swiper-slide card-swiper">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="img/421.jpg">
+                            </div>
+                            <div class="name">
+                                <span class="model-name">421</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-pagination"></div>
-                </div>   
-            </section>
-            <section class="carrossel">
-                <div class="swiper">
-                    <div class="swiper-pagination"></div>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="img/35.jpg" alt="Medalha 35" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/42.jpg" alt="Medalha 42" height="141" width="233"></div>
-                        <div class="swiper-slide"><img src="img/52.jpg" alt="Medalha 52" height="141" width="233"></div>
+                    <div class="swiper-slide card-swiper">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="img/421.jpg">
+                            </div>
+                            <div class="name">
+                                <span class="model-name">521</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-pagination"></div>
-                </section>    
-            </div>   
-            -->
+                    <div class="swiper-slide card-swiper">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="img/421.jpg">
+                            </div>
+                            <div class="name">
+                                <span class="model-name">601</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+
+        </section>
 
             <div class="cards__container">
                 <div class="card">
@@ -215,16 +233,7 @@
             medasul@medasul.com -  Telefone: (54) 3291-2122</p>
     </footer>
 
-    
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper('.swiper', {
-            spaceBetween: 10,
-            slidesPerView: 3,
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-            }
-        });
-    </script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
 </body>

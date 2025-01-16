@@ -21,3 +21,19 @@
     font-size: 16px;
 }
 
+@media screen and (max-width: 1024px) {
+    .card {
+        width: 100%;
+        margin: 2em auto;
+    }
+
+    .card__descrição {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card__map {
+        width: auto;
+        height: auto;
+    }
+}
