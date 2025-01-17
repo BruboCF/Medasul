@@ -3,7 +3,7 @@
 }
 
 .card__map {
-    max-width: 50%;
+    width: 50%;
 }
 
 .descrição__contato {
@@ -21,19 +21,45 @@
     font-size: 16px;
 }
 
+.form__descrição {
+    margin-top: 2em;
+    line-height: 2.5em;
+}
+
+.form__descrição__input {
+    font-size: 18px;
+    border: 1px solid var(--preto);
+    border-radius: 4px;
+    outline: none;
+}
+
+.form__descrição__input:focus {
+    border-color: var(--verde);
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
+
+.form__descrição__input::placeholder {
+    font-family: var(--fonte-principal);
+}
+
 @media screen and (max-width: 1024px) {
     .card {
         width: 100%;
         margin: 2em auto;
     }
 
-    .card__descrição {
+    .card__descrição__contato {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .card__map {
-        width: auto;
-        height: auto;
+        width: 80%;
     }
 }

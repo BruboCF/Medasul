@@ -96,6 +96,10 @@
     background-color: var(--azul);
 }
 
+.descrição__texto__lista {
+    list-style-type: disc;
+}
+
 @media screen and (min-width: 1024px) {
     .card {
         width: 40%;

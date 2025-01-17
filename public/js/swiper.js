@@ -1,7 +1,5 @@
 const swiper1 = new Swiper("#carrossel1 .mySwiper", {
-    slidesPerView: 3,
     spaceBetween: 30,
-    slidesPerGroup: 3,
     loop: true,
     loopFillGroupWithBlank: true,
     pagination: {
@@ -12,12 +10,32 @@ const swiper1 = new Swiper("#carrossel1 .mySwiper", {
         nextEl: "#carrossel1 .swiper-button-next",
         prevEl: "#carrossel1 .swiper-button-prev",
     },
+    breakpoints: {
+        1024: {
+          slidesPerView: 3,
+          slidesPerGroup: 3
+        },
+        768: {
+          slidesPerView: 2,
+          slidesPerGroup: 2
+        },
+        480: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+          centeredSlides: true,
+          loopFillGroupWithBlank: false,
+        },
+        1: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            centeredSlides: true,
+            loopFillGroupWithBlank: false
+        }
+    }
 });
 
 const swiper2 = new Swiper("#carrossel2 .mySwiper", {
-    slidesPerView: 3,
     spaceBetween: 30,
-    slidesPerGroup: 3,
     loop: true,
     loopFillGroupWithBlank: true,
     pagination: {
@@ -28,12 +46,32 @@ const swiper2 = new Swiper("#carrossel2 .mySwiper", {
         nextEl: "#carrossel2 .swiper-button-next",
         prevEl: "#carrossel2 .swiper-button-prev",
     },
+    breakpoints: {
+        1024: {
+          slidesPerView: 3,
+          slidesPerGroup: 3
+        },
+        768: {
+          slidesPerView: 2,
+          slidesPerGroup: 2
+        },
+        480: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+          centeredSlides: true,
+          loopFillGroupWithBlank: false
+        },
+        1: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            centeredSlides: true,
+            loopFillGroupWithBlank: false
+        }
+    }
 });
 
 const swiper3 = new Swiper("#carrossel3 .mySwiper", {
-    slidesPerView: 3,
     spaceBetween: 30,
-    slidesPerGroup: 3,
     loop: true,
     loopFillGroupWithBlank: true,
     pagination: {
@@ -44,12 +82,32 @@ const swiper3 = new Swiper("#carrossel3 .mySwiper", {
         nextEl: "#carrossel3 .swiper-button-next",
         prevEl: "#carrossel3 .swiper-button-prev",
     },
+    breakpoints: {
+        1024: {
+          slidesPerView: 3,
+          slidesPerGroup: 3
+        },
+        768: {
+          slidesPerView: 2,
+          slidesPerGroup: 2
+        },
+        480: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+          centeredSlides: true,
+          loopFillGroupWithBlank: false
+        },
+        1: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            centeredSlides: true,
+            loopFillGroupWithBlank: false
+        }
+    }
 });
 
 const swiper4 = new Swiper("#carrossel4 .mySwiper", {
-    slidesPerView: 3,
     spaceBetween: 30,
-    slidesPerGroup: 3,
     loop: true,
     loopFillGroupWithBlank: true,
     pagination: {
@@ -60,12 +118,32 @@ const swiper4 = new Swiper("#carrossel4 .mySwiper", {
         nextEl: "#carrossel4 .swiper-button-next",
         prevEl: "#carrossel4 .swiper-button-prev",
     },
+    breakpoints: {
+        1024: {
+          slidesPerView: 3,
+          slidesPerGroup: 3
+        },
+        768: {
+          slidesPerView: 2,
+          slidesPerGroup: 2
+        },
+        480: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+          centeredSlides: true,
+          loopFillGroupWithBlank: false
+        },
+        1: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            centeredSlides: true,
+            loopFillGroupWithBlank: false
+        }
+    }
 });
 
 const swiper5 = new Swiper("#carrossel5 .mySwiper", {
-    slidesPerView: 3,
     spaceBetween: 30,
-    slidesPerGroup: 3,
     loop: true,
     loopFillGroupWithBlank: true,
     pagination: {
@@ -76,12 +154,32 @@ const swiper5 = new Swiper("#carrossel5 .mySwiper", {
         nextEl: "#carrossel5 .swiper-button-next",
         prevEl: "#carrossel5 .swiper-button-prev",
     },
+    breakpoints: {
+        1024: {
+          slidesPerView: 3,
+          slidesPerGroup: 3
+        },
+        768: {
+          slidesPerView: 2,
+          slidesPerGroup: 2
+        },
+        480: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+          centeredSlides: true,
+          loopFillGroupWithBlank: false
+        },
+        1: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            centeredSlides: true,
+            loopFillGroupWithBlank: false
+        }
+    }
 });
 
 const swiper6 = new Swiper("#carrossel6 .mySwiper", {
-    slidesPerView: 3,
     spaceBetween: 30,
-    slidesPerGroup: 3,
     loop: true,
     loopFillGroupWithBlank: true,
     pagination: {
@@ -92,12 +190,32 @@ const swiper6 = new Swiper("#carrossel6 .mySwiper", {
         nextEl: "#carrossel6 .swiper-button-next",
         prevEl: "#carrossel6 .swiper-button-prev",
     },
+    breakpoints: {
+        1024: {
+          slidesPerView: 3,
+          slidesPerGroup: 3
+        },
+        768: {
+          slidesPerView: 2,
+          slidesPerGroup: 2
+        },
+        480: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+          centeredSlides: true,
+          loopFillGroupWithBlank: false
+        },
+        1: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            centeredSlides: true,
+            loopFillGroupWithBlank: false
+        }
+    }
 });
 
 const swiper7 = new Swiper("#carrossel7 .mySwiper", {
-    slidesPerView: 3,
     spaceBetween: 30,
-    slidesPerGroup: 3,
     loop: true,
     loopFillGroupWithBlank: true,
     pagination: {
@@ -108,4 +226,26 @@ const swiper7 = new Swiper("#carrossel7 .mySwiper", {
         nextEl: "#carrossel7 .swiper-button-next",
         prevEl: "#carrossel7 .swiper-button-prev",
     },
+    breakpoints: {
+        1024: {
+          slidesPerView: 3,
+          slidesPerGroup: 3
+        },
+        768: {
+          slidesPerView: 2,
+          slidesPerGroup: 2
+        },
+        480: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+          centeredSlides: true,
+          loopFillGroupWithBlank: false
+        },
+        1: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            centeredSlides: true,
+            loopFillGroupWithBlank: false
+        }
+    }
 });

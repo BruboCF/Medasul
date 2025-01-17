@@ -20,3 +20,7 @@
     text-align: justify;
     line-height: 1.1em;
 }
+
+.descrição__texto__lista {
+    list-style-type: disc;
+}
