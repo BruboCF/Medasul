@@ -21,6 +21,11 @@
     margin-bottom: 0.5em;
 }
 
+.card__imagem {
+    display: flex;
+    justify-content: center;
+}
+
 .card__botões {
     display: flex;
     justify-content: space-between;

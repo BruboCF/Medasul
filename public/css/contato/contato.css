@@ -1,5 +1,5 @@
 .card__contato {
-    width: 60%;
+    width: 50%;
 }
 
 .card__map {
@@ -11,6 +11,12 @@
     flex-direction: column;
     justify-content: top;
     align-content: center;
+}
+
+.card__descrição__contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .descrição__titulo__contato {
