@@ -15,14 +15,17 @@ const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
 const app = express();
 const port = parseInt(process.env.PORT || "3000", 10);
+require('dotenv').config();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 // Rota para envio de e-mail
 app.post("/send-email", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    const { name, email, subject, message } = req.body;
+    const { name, fone, email, subject, message } = req.body;
     // Configurar transporte de e-mail
     const transporter = nodemailer.createTransport({
-        service: "gmail",
+        host: "smtp.gmail.com",
+        port: 587,
+        secure: false,
         auth: {
             user: process.env.EMAIL_USER,
             pass: process.env.EMAIL_PASS,
@@ -32,7 +35,7 @@ app.post("/send-email", (req, res) => __awaiter(void 0, void 0, void 0, function
     const mailOptions = {
         from: email,
         to: process.env.EMAIL_USER,
-        subject: `${subject} - Enviado por ${name}`,
+        subject: `${subject} - Enviado por ${name} de telefone ${fone}`,
         text: message,
     };
     try {

@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
 const app = express();
 const port: number = parseInt(process.env.PORT || "3000", 10);
+require('dotenv').config();
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
@@ -12,6 +13,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Tipagem para os dados do formulário
 interface FormData {
   name: string;
+  fone: string;
   email: string;
   subject: string;
   message: string;
@@ -19,11 +21,13 @@ interface FormData {
 
 // Rota para envio de e-mail
 app.post("/send-email", async (req: Request, res: Response) => {
-  const { name, email, subject, message } = req.body as FormData;
+  const { name, fone, email, subject, message } = req.body as FormData;
 
   // Configurar transporte de e-mail
   const transporter = nodemailer.createTransport({
-    service: "gmail",
+    host: "smtp.gmail.com",
+    port: 465,
+    secure: false,
     auth: {
       user: process.env.EMAIL_USER,
       pass: process.env.EMAIL_PASS,
@@ -34,7 +38,7 @@ app.post("/send-email", async (req: Request, res: Response) => {
   const mailOptions = {
     from: email,
     to: process.env.EMAIL_USER,
-    subject: `${subject} - Enviado por ${name}`,
+    subject: `${subject} - Enviado por ${name} de telefone ${fone}`,
     text: message,
   };
 
