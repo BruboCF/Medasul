@@ -24,7 +24,7 @@ app.post("/send-email", (req, res) => __awaiter(void 0, void 0, void 0, function
     // Configurar transporte de e-mail
     const transporter = nodemailer.createTransport({
         host: "smtp.gmail.com",
-        port: 587,
+        port: 465,
         secure: false,
         auth: {
             user: process.env.EMAIL_USER,
