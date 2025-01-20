@@ -17,7 +17,7 @@ const swiper1 = new Swiper("#carrossel1 .mySwiper", {
         },
         768: {
           slidesPerView: 2,
-          slidesPerGroup: 2
+          slidesPerGroup: 2,
         },
         480: {
           slidesPerView: 1,
@@ -29,7 +29,7 @@ const swiper1 = new Swiper("#carrossel1 .mySwiper", {
             slidesPerView: 1,
             slidesPerGroup: 1,
             centeredSlides: true,
-            loopFillGroupWithBlank: false
+            loopFillGroupWithBlank: false,
         }
     }
 });
@@ -49,23 +49,23 @@ const swiper2 = new Swiper("#carrossel2 .mySwiper", {
     breakpoints: {
         1024: {
           slidesPerView: 3,
-          slidesPerGroup: 3
+          slidesPerGroup: 3,
         },
         768: {
           slidesPerView: 2,
-          slidesPerGroup: 2
+          slidesPerGroup: 2,
         },
         480: {
           slidesPerView: 1,
           slidesPerGroup: 1,
           centeredSlides: true,
-          loopFillGroupWithBlank: false
+          loopFillGroupWithBlank: false,
         },
         1: {
             slidesPerView: 1,
             slidesPerGroup: 1,
             centeredSlides: true,
-            loopFillGroupWithBlank: false
+            loopFillGroupWithBlank: false,
         }
     }
 });
@@ -85,23 +85,23 @@ const swiper3 = new Swiper("#carrossel3 .mySwiper", {
     breakpoints: {
         1024: {
           slidesPerView: 3,
-          slidesPerGroup: 3
+          slidesPerGroup: 3,
         },
         768: {
           slidesPerView: 2,
-          slidesPerGroup: 2
+          slidesPerGroup: 2,
         },
         480: {
           slidesPerView: 1,
           slidesPerGroup: 1,
           centeredSlides: true,
-          loopFillGroupWithBlank: false
+          loopFillGroupWithBlank: false,
         },
         1: {
             slidesPerView: 1,
             slidesPerGroup: 1,
             centeredSlides: true,
-            loopFillGroupWithBlank: false
+            loopFillGroupWithBlank: false,
         }
     }
 });
@@ -121,23 +121,23 @@ const swiper4 = new Swiper("#carrossel4 .mySwiper", {
     breakpoints: {
         1024: {
           slidesPerView: 3,
-          slidesPerGroup: 3
+          slidesPerGroup: 3,
         },
         768: {
           slidesPerView: 2,
-          slidesPerGroup: 2
+          slidesPerGroup: 2,
         },
         480: {
           slidesPerView: 1,
           slidesPerGroup: 1,
           centeredSlides: true,
-          loopFillGroupWithBlank: false
+          loopFillGroupWithBlank: false,
         },
         1: {
             slidesPerView: 1,
             slidesPerGroup: 1,
             centeredSlides: true,
-            loopFillGroupWithBlank: false
+            loopFillGroupWithBlank: false,
         }
     }
 });
@@ -157,23 +157,23 @@ const swiper5 = new Swiper("#carrossel5 .mySwiper", {
     breakpoints: {
         1024: {
           slidesPerView: 3,
-          slidesPerGroup: 3
+          slidesPerGroup: 3,
         },
         768: {
           slidesPerView: 2,
-          slidesPerGroup: 2
+          slidesPerGroup: 2,
         },
         480: {
           slidesPerView: 1,
           slidesPerGroup: 1,
           centeredSlides: true,
-          loopFillGroupWithBlank: false
+          loopFillGroupWithBlank: false,
         },
         1: {
             slidesPerView: 1,
             slidesPerGroup: 1,
             centeredSlides: true,
-            loopFillGroupWithBlank: false
+            loopFillGroupWithBlank: false,
         }
     }
 });
@@ -193,23 +193,23 @@ const swiper6 = new Swiper("#carrossel6 .mySwiper", {
     breakpoints: {
         1024: {
           slidesPerView: 3,
-          slidesPerGroup: 3
+          slidesPerGroup: 3,
         },
         768: {
           slidesPerView: 2,
-          slidesPerGroup: 2
+          slidesPerGroup: 2,
         },
         480: {
           slidesPerView: 1,
           slidesPerGroup: 1,
           centeredSlides: true,
-          loopFillGroupWithBlank: false
+          loopFillGroupWithBlank: false,
         },
         1: {
             slidesPerView: 1,
             slidesPerGroup: 1,
             centeredSlides: true,
-            loopFillGroupWithBlank: false
+            loopFillGroupWithBlank: false,
         }
     }
 });
@@ -229,23 +229,23 @@ const swiper7 = new Swiper("#carrossel7 .mySwiper", {
     breakpoints: {
         1024: {
           slidesPerView: 3,
-          slidesPerGroup: 3
+          slidesPerGroup: 3,
         },
         768: {
           slidesPerView: 2,
-          slidesPerGroup: 2
+          slidesPerGroup: 2,
         },
         480: {
           slidesPerView: 1,
           slidesPerGroup: 1,
           centeredSlides: true,
-          loopFillGroupWithBlank: false
+          loopFillGroupWithBlank: false,
         },
         1: {
             slidesPerView: 1,
             slidesPerGroup: 1,
             centeredSlides: true,
-            loopFillGroupWithBlank: false
+            loopFillGroupWithBlank: false,
         }
     }
 });
