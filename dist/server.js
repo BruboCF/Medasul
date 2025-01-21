@@ -18,12 +18,10 @@ const port = parseInt(process.env.PORT || "3000", 10);
 require('dotenv').config();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
-// Rota para envio de e-mail
 app.post("/send-email", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const { name, fone, email, subject, message } = req.body;
-    // Configurar transporte de e-mail
     const transporter = nodemailer.createTransport({
-        host: "smtp.gmail.com",
+        host: "smtp.office365.com",
         port: 465,
         secure: false,
         auth: {
@@ -31,11 +29,10 @@ app.post("/send-email", (req, res) => __awaiter(void 0, void 0, void 0, function
             pass: process.env.EMAIL_PASS,
         },
     });
-    // Configurar o e-mail a ser enviado
     const mailOptions = {
         from: email,
         to: process.env.EMAIL_USER,
-        subject: `${subject} - Enviado por ${name} de telefone ${fone}`,
+        subject: `${subject} - Enviado por ${name}, atende por telefone ${fone}`,
         text: message,
     };
     try {

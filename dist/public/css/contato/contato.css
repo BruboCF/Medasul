@@ -1,9 +1,10 @@
 .card__contato {
-    width: 50%;
+    width: 55%;
 }
 
 .card__map {
-    width: 50%;
+    width: 55%;
+    align-self: center;
 }
 
 .descrição__contato {
@@ -52,6 +53,10 @@ textarea {
     font-family: var(--fonte-principal);
 }
 
+.botão__enviar {
+    width: 87%;
+}
+
 @media screen and (max-width: 1024px) {
     .card {
         width: 100%;
@@ -67,5 +72,15 @@ textarea {
 
     .card__map {
         width: 80%;
+    }
+
+    .botão__enviar {
+        margin-bottom: 2.5em;
+        justify-self: center;
+    }
+
+    textarea {
+        height: 100px;
+        width: 86%;
     }
 }

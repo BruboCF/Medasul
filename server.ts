@@ -10,7 +10,6 @@ require('dotenv').config();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Tipagem para os dados do formulário
 interface FormData {
   name: string;
   fone: string;
@@ -19,13 +18,11 @@ interface FormData {
   message: string;
 }
 
-// Rota para envio de e-mail
 app.post("/send-email", async (req: Request, res: Response) => {
   const { name, fone, email, subject, message } = req.body as FormData;
 
-  // Configurar transporte de e-mail
   const transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com",
+    host: "smtp.office365.com",
     port: 465,
     secure: false,
     auth: {
@@ -34,11 +31,10 @@ app.post("/send-email", async (req: Request, res: Response) => {
     },
   });
 
-  // Configurar o e-mail a ser enviado
   const mailOptions = {
     from: email,
     to: process.env.EMAIL_USER,
-    subject: `${subject} - Enviado por ${name} de telefone ${fone}`,
+    subject: `${subject} - Enviado por ${name}, atende por telefone ${fone}`,
     text: message,
   };
 
