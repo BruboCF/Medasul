@@ -15,6 +15,11 @@
     border-top: 3px solid var(--verde);
 }
 
+.titulo {
+    border-top: 0;
+    border-bottom: 5px solid var(--verde);
+}
+
 .descrição__texto__linha {
     padding: 0 1em 1em 1em;
     text-align: justify;

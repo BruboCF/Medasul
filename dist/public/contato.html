@@ -15,7 +15,7 @@
 
 <body>
     <header class="cabecalho">
-        <a href="index.html"><img src="img/medasul-logo.svg" alt="Logo da Medasul" class="container__imagem"></a>
+        <a href="index.html"><img src="img/icons/medasul-logo.svg" alt="Logo da Medasul" class="container__imagem"></a>
             <div class="container">
                 <input type="checkbox" id="menu" class="container__botao">
                 <label for="menu">
@@ -48,7 +48,7 @@
     <main>
         <section class="banner">
             <h2 class="banner__titulo">FALE COM A GENTE</h2>
-            <p class="banner__texto">Informe seus contatos, envie seu pedido, e deixe o resto com a gente!</p>
+            <p class="banner__texto">Escolha sua forma de contato, envie seu pedido, e deixe o resto com a gente!</p>
         </section>
         
         <div class="cards__container">
@@ -56,25 +56,18 @@
                 <div class="card__descrição__contato">
                     <div class="descrição descrição__contato">
                         <h3 class="descrição__titulo-medalha descrição__titulo__contato">Contato</h3>
-                        <p class="descrição__texto descrição__texto__contato">Endereço: VRS-315, 1700<br>São Marcos - RS - Brasil<br>Fone: (54) 3291-2122<br>E-mail: medasul@medasul.com</p>
-                        <form action="/send-email" method="POST" class="form__descrição">
-                            <div>
-                                <input class="form__descrição__input" type="text" id="formNome" placeholder="Nome" required />
-                            </div>
-                            <div>
-                                <input class="form__descrição__input" type="tel" id="formTelefone" placeholder="Telefone" required />
-                            </div>
-                            <div>
-                                <input class="form__descrição__input" type="email" id="formEmail" placeholder="E-mail" required />
-                            </div>
-                            <div>
-                                <input class="form__descrição__input" type="text" id="formAssunto" placeholder="Assunto" required />
-                            </div>
-                            <div>
-                                <textarea class="form__descrição__input" type="text" id="formMensagem" placeholder="Mensagem" required></textarea>
-                            </div>
-                            <button class="botões__ancora botão__enviar" type="submit">Enviar</button>
-                        </form>
+                        <div class="contato__descrição">
+                            <img class="contato__icon adress" src="img/icons/address.svg">
+                            <p class="descrição__texto descrição__texto__contato">VRS-315 1700<br>São Marcos - RS - Brasil</p>
+                        </div>
+                        <div class="contato__descrição">
+                            <img class="contato__icon" src="img/icons/email.svg">
+                            <p class="descrição__texto descrição__texto__contato">medasul@medasul.com</p>
+                        </div>
+                        <div class="contato__descrição">
+                            <img class="contato__icon" src="img/icons/whatsapp.svg">
+                            <p class="descrição__texto descrição__texto__contato">(54) 3291-2122<br></p>
+                        </div>
                     </div>
                     <iframe class="card__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1745.361185634572!2d-51.03976373052553!3d-28.965957988993807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951e93b446c57887%3A0x38fe6801d17d49e9!2sMedasul!5e0!3m2!1spt-BR!2sbr!4v1736943536011!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
