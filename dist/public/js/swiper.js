@@ -24,12 +24,14 @@ const swiper1 = new Swiper("#carrossel1 .mySwiper", {
           slidesPerGroup: 1,
           centeredSlides: true,
           loopFillGroupWithBlank: false,
+          pagination: false,
         },
         1: {
             slidesPerView: 1,
             slidesPerGroup: 1,
             centeredSlides: true,
             loopFillGroupWithBlank: false,
+            pagination: false,
         }
     }
 });
@@ -60,12 +62,14 @@ const swiper2 = new Swiper("#carrossel2 .mySwiper", {
           slidesPerGroup: 1,
           centeredSlides: true,
           loopFillGroupWithBlank: false,
+          pagination: false,
         },
         1: {
             slidesPerView: 1,
             slidesPerGroup: 1,
             centeredSlides: true,
             loopFillGroupWithBlank: false,
+            pagination: false,
         }
     }
 });
@@ -96,12 +100,14 @@ const swiper3 = new Swiper("#carrossel3 .mySwiper", {
           slidesPerGroup: 1,
           centeredSlides: true,
           loopFillGroupWithBlank: false,
+          pagination: false,
         },
         1: {
             slidesPerView: 1,
             slidesPerGroup: 1,
             centeredSlides: true,
             loopFillGroupWithBlank: false,
+            pagination: false,
         }
     }
 });
@@ -132,12 +138,14 @@ const swiper4 = new Swiper("#carrossel4 .mySwiper", {
           slidesPerGroup: 1,
           centeredSlides: true,
           loopFillGroupWithBlank: false,
+          pagination: false,
         },
         1: {
             slidesPerView: 1,
             slidesPerGroup: 1,
             centeredSlides: true,
             loopFillGroupWithBlank: false,
+            pagination: false,
         }
     }
 });
@@ -168,12 +176,14 @@ const swiper5 = new Swiper("#carrossel5 .mySwiper", {
           slidesPerGroup: 1,
           centeredSlides: true,
           loopFillGroupWithBlank: false,
+          pagination: false,
         },
         1: {
             slidesPerView: 1,
             slidesPerGroup: 1,
             centeredSlides: true,
             loopFillGroupWithBlank: false,
+            pagination: false,
         }
     }
 });
@@ -204,12 +214,14 @@ const swiper6 = new Swiper("#carrossel6 .mySwiper", {
           slidesPerGroup: 1,
           centeredSlides: true,
           loopFillGroupWithBlank: false,
+          pagination: false,
         },
         1: {
             slidesPerView: 1,
             slidesPerGroup: 1,
             centeredSlides: true,
             loopFillGroupWithBlank: false,
+            pagination: false,
         }
     }
 });
@@ -240,12 +252,14 @@ const swiper7 = new Swiper("#carrossel7 .mySwiper", {
           slidesPerGroup: 1,
           centeredSlides: true,
           loopFillGroupWithBlank: false,
+          pagination: false,
         },
         1: {
             slidesPerView: 1,
             slidesPerGroup: 1,
             centeredSlides: true,
             loopFillGroupWithBlank: false,
+            pagination: false,
         }
     }
 });
