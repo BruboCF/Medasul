@@ -118,4 +118,8 @@
         width: 40%;
         margin: 2em auto;
     }
+
+    .descrição__imagem {
+        max-width: 100%;
+    }
 }
