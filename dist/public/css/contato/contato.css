@@ -29,31 +29,6 @@
     font-size: 16px;
 }
 
-.form__descrição {
-    margin-top: 2em;
-    line-height: 2.5em;
-}
-
-.form__descrição__input {
-    font-size: 18px;
-    border: 1px solid var(--preto);
-    border-radius: 4px;
-    outline: none;
-}
-
-.form__descrição__input:focus {
-    border-color: var(--verde);
-}
-
-textarea {
-    resize: none;
-    height: 150px;
-}
-
-.form__descrição__input::placeholder {
-    font-family: var(--fonte-principal);
-}
-
 .botão__enviar {
     width: 87%;
 }
@@ -70,6 +45,11 @@ textarea {
     width: 36px;
     height: 36px;
     padding: 0 1em 0 1em;
+}
+
+.titulo__contato {
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -97,5 +77,18 @@ textarea {
     .contato__descrição {
         justify-content: left;
     }
+}
 
+@media screen and (min-width: 1920px) {
+    .descrição__titulo-contato {
+        font-size: 24px;
+    }
+
+    .descrição__titulo-contato {
+        font-size: 28px;
+    }
+
+    .descrição__texto__contato {
+        font-size: 22px;
+    }
 }

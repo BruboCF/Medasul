@@ -31,3 +31,9 @@
         flex-direction: column;
     }
 }
+
+@media screen and (min-width: 1920px) {
+    .descrição__texto__empresa {
+        font-size: 20px
+    }
+}

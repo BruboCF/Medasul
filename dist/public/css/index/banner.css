@@ -24,3 +24,13 @@
     font-weight: 500;
     margin: 1em 0;
 }
+
+@media screen and (min-width: 1920px) {
+    .banner__texto {
+        font-size: 20px;
+    }
+
+    .banner__titulo {
+        font-size: 28px;
+    }
+}

@@ -94,15 +94,9 @@
 }
 
 .descrição__imagem {
-    max-width:170px;
-    max-height:180px;
-    width: auto;
-    height: auto;
-    text-align: center;
-}
-
-.descrição__estrelinhas {
-    margin-bottom: 0.5em;
+    max-width: 212px;
+    max-height: 112px;
+    align-self: center;
 }
 
 .botões__ancora:active {
@@ -118,8 +112,37 @@
         width: 40%;
         margin: 2em auto;
     }
+}
 
+@media screen and (max-width: 1024px) {
     .descrição__imagem {
-        max-width: 100%;
+        max-width: 170px;
+        max-height: 180px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .cards__titulo {
+        font-size: 24px;
+    }
+
+    .cards__subtitulo {
+        font-size: 20px;
+    }
+
+    .descrição__titulo-medalha {
+        font-size: 20px;
+    }
+
+    .descrição__texto {
+        font-size: 18px;
+    }
+
+    .descrição__texto__obs {
+        font-size: 16px;
+    }
+
+    .botões__ancora {
+        font-size: 20px;
     }
 }

@@ -24,3 +24,13 @@
 .descrição__texto__lista {
     list-style-type: disc;
 }
+
+@media screen and (min-width: 1920px) {
+    .descrição__titulo__pers {
+        font-size: 28px;
+    }
+
+    .descrição__texto__pers {
+        font-size: 20px;
+    }
+}
