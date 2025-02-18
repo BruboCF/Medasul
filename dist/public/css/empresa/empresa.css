@@ -13,7 +13,7 @@
 }
 
 .descrição__imagem__empresa {
-    width: 100%;
+    width: 60%;
 }
 
 .card__empresa {
@@ -29,6 +29,15 @@
     .card__descrição {
         display: flex;
         flex-direction: column;
+    }
+
+    .descrição__titulo__empcard {
+        text-align: center;
+    }
+
+    .descrição__imagem__empresa {
+        width: 85%;
+        align-self: center;
     }
 }
 
