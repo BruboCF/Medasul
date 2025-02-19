@@ -9,7 +9,7 @@
 
 .descrição__texto__empresa {
     padding: 0 1em 1em 1em;
-    text-align: justify;
+    text-align: left;
 }
 
 .descrição__imagem__empresa {
@@ -36,8 +36,14 @@
     }
 
     .descrição__imagem__empresa {
-        width: 85%;
+        width: 100%;
         align-self: center;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .descrição__imagem__empresa {
+        width: 50%;
     }
 }
 

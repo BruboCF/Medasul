@@ -74,6 +74,10 @@
         text-align: left;
     }
 
+    .descrição__titulo-contato {
+        text-align: center;
+    }
+
     .contato__descrição {
         justify-content: left;
     }
