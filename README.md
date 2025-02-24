@@ -17,3 +17,5 @@ A decisão de se utilizar TypeScript se deu pela vontade de aprender e saber com
 Para o deploy, foi escolhido o serviço da **`Fly.io`**, justamente por ser um jeito fácil, bom e grátis de se colocar um projeto no ar.
 #
 O projeto foi um **sucesso**, gostado e aprovado pela administração da empresa, que o enviou para seus clientes poderem visualizar seus produtos, serviços, contatos e ainda aprenderem mais sobre quem é a **Medasul** e o que ela faz.
+
+![medasul-gif](https://github.com/BruboCF/Medasul/blob/main/dist/public/img/medasul.gif)
